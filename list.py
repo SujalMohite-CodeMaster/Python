@@ -25,3 +25,29 @@ print(var[-1:-4])
 print(var[::-1])#this is usedto print the list in reverse order
 
 print(num_list[2:10:2])# this will print the every second element of list in a range of 2 to 10
+
+# Some other methods
+letters = list("My name is 'Sujal Mohite'")
+#if i want to print the every elemnet in string i can use 
+print(letters)
+
+# methods in list
+
+num_list.append(90)
+print(num_list)
+
+num_list.extend(var)
+print(num_list)
+
+num_list.remove("D")
+print(num_list)
+
+print(num_list.sort)
+
+# Operation on list
+num = [2,4,3.4,54,34,56,32]
+print(max(num))
+print(min(num))
+print(sum(num))
+avg = sum(num)/len(num)
+print(avg)
